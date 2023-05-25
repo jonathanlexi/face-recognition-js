@@ -54,7 +54,7 @@ videoElement.addEventListener('play', async () => {
         statusElement.classList.remove('status-ditolak');
       } else {
         nameElement.innerText = 'Unknown';
-        statusElement.innerText = 'Tidak Diterima';
+        statusElement.innerText = 'Ditolak';
         statusElement.classList.add('status-ditolak');
         statusElement.classList.remove('status-diterima');
       }
